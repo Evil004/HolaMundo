@@ -1,10 +1,9 @@
 import javax.swing.*;
 
 public class HolaMundo {
-    public static void main(String[] args) {
-        String nombre = JOptionPane.showInputDialog(null,"Introduce tu nombre");
+    public static void saludo() {
 
-        JOptionPane.showMessageDialog(null,"Tu nombre es " + nombre);
+        JOptionPane.showMessageDialog(null,"Hola, mundo!");
 
     }
 }
